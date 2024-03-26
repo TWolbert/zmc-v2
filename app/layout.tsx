@@ -6,7 +6,8 @@ import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 const poppins = Poppins({
-  weight: "400"
+  weight: "400",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
